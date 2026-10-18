@@ -1,0 +1,24 @@
+{
+  "release_name": "CCVNSGAIII-MOPSO",
+  "canonical_source_root": "/content/drive/MyDrive/Paper3/phase34_source/Paper3_Phase30",
+  "canonical_class": "CCVNSGAIII_MOPSO_CPU_P8",
+  "canonical_module": "paper3_phase8_cpu/q1_cooperative_phase8.py",
+  "canonical_sha256": "ecf2e2672ced1d8a9a92aafea000d3c464cfbaeb2dcbec45a14b2a62c441a98f",
+  "phase_source_hashes": {
+    "q1_cooperative_phase4.py": "a14b693c1e267ddeff733af0cca34aa65e604d5dd25dab3ecb9d547a899bd3e9",
+    "q1_cooperative_phase5.py": "575cdffc173eaeafed7d413c2bffa7d805b6b5cbe6cdf505d6749b8bd69c4d87",
+    "q1_cooperative_phase6.py": "036efcb901f494769bb7c9640ac7502dc66df740d672bd7d095df13daca23d81",
+    "q1_cooperative_phase7.py": "fd14b080435d99464d9534c234ea9c1c11e8ffa7a5ca10af21a45d9a5217bc23",
+    "q1_cooperative_phase8.py": "ecf2e2672ced1d8a9a92aafea000d3c464cfbaeb2dcbec45a14b2a62c441a98f"
+  },
+  "inheritance_chain": [
+    "CCVNSGAIII_MOPSO_CPU_P8",
+    "CCVNSGAIII_MOPSO_CPU_P7",
+    "CCVNSGAIII_MOPSO_CPU_P6",
+    "CCVNSGAIII_MOPSO_CPU_P5",
+    "CCVNSGAIII_MOPSO_CPU_P4",
+    "ADAPTIVE_SELECTIVE_MOPSO_NSGA3_STAGE2C",
+    "NSGA3_Q1"
+  ],
+  "source_policy": "Canonical Phase-30 implementation. Phase-39 optimization branches excluded."
+}

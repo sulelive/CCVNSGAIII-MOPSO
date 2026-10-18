@@ -1,0 +1,12 @@
+{
+  "release": "1.0.0",
+  "date": "2026-10-18",
+  "python": "3.13.16",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "canonical_class": "CCVNSGAIII_MOPSO_CPU_P8",
+  "canonical_p8_sha256": "ecf2e2672ced1d8a9a92aafea000d3c464cfbaeb2dcbec45a14b2a62c441a98f",
+  "canonical_checksum_pass": true,
+  "public_import_example_pass": true,
+  "original_phase8_test_pass": true,
+  "phase39_optimization_branches_included": false
+}

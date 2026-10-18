@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+# Generated experimental outputs
+outputs/
+**/outputs/
+
+# Python generated files
+__pycache__/
+*.pyc
+.pytest_cache/

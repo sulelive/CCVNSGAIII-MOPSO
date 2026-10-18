@@ -1,0 +1,48 @@
+PAPER 2 Q1 REVISION — STAGE 1 VALIDATION FINDINGS
+=================================================
+Date: 2026-09-14
+
+Smoke test configuration
+------------------------
+Topology: nxgenerated.100
+Workload replication: 1 (20 services)
+Population: 8
+Generations: 1
+Matched seeds: model=731001, population=731002, evolution=731003
+
+Results
+-------
+All six algorithms imported and completed successfully.
+All six algorithms passed same-seed reproducibility (identical final nondominated signatures).
+
+Exact objective-evaluation counts observed for the one-generation smoke test:
+- NSGA-II: 16
+- NSGA-III: 16
+- MOEA/D: 16
+- RVEA: 16
+- Original NSGAIII-MOPSO: 60
+- Adaptive Reference-Vector Guided NSGAIII-MOPSO: 76
+
+Critical methodological finding
+-------------------------------
+Equal generation counts do NOT imply equal computational search budgets in this codebase.
+The hybrids perform several full-population objective recalculations inside each generation,
+while the standalone comparators perform approximately one offspring evaluation per population
+member per generation. Therefore a Q1 comparison based only on an equal number of generations
+would materially favor algorithms that consume more objective evaluations.
+
+Required action before main experiments
+---------------------------------------
+The definitive Q1 runner must support a fixed objective-evaluation budget and log both:
+1. objective evaluations; and
+2. wall-clock runtime.
+
+The paper may additionally report equal-generation convergence as a secondary diagnostic, but
+the primary state-of-the-art comparison should be evaluation-budget controlled.
+
+Other confirmed conventions
+---------------------------
+- Final Pareto extraction: standard weak Pareto dominance.
+- Manuscript Resource Utilization = 1 - internal unused-resource fraction.
+- Manuscript latency terminology: Communication Latency Proxy.
+- Historical Original NSGAIII-MOPSO source is preserved rather than silently modified.

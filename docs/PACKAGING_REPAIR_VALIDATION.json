@@ -1,0 +1,11 @@
+{
+  "canonical_p8_sha256": "ecf2e2672ced1d8a9a92aafea000d3c464cfbaeb2dcbec45a14b2a62c441a98f",
+  "canonical_p8_unchanged": true,
+  "historical_runtime_layout_restored": true,
+  "scenario_threeapps_present": true,
+  "isolated_import_pass": true,
+  "original_phase8_test_pass": true,
+  "test_return_code": 0,
+  "test_stdout": "PASS 731001 budget 30 total 12 unused 18\nPASS 731002 budget 82 total 76 unused 6\nPASS 731003 budget 192 total 174 unused 18\nPASS: single-pass chaos, no inherited initialization, deterministic signatures and feasibility\n",
+  "test_stderr": ""
+}

@@ -1,0 +1,11 @@
+{
+  "canonical_sha256": "ecf2e2672ced1d8a9a92aafea000d3c464cfbaeb2dcbec45a14b2a62c441a98f",
+  "checksum_pass": true,
+  "isolated_import_pass": true,
+  "inheritance_pass": true,
+  "original_phase8_test_pass": false,
+  "isolation_pass": true,
+  "import_return_code": 0,
+  "import_stdout": "IMPORT_OK\nCLASS_NAME=CCVNSGAIII_MOPSO_CPU_P8\nMODULE=q1_cooperative_phase8\nMRO_START\nCCVNSGAIII_MOPSO_CPU_P8\nCCVNSGAIII_MOPSO_CPU_P7\nCCVNSGAIII_MOPSO_CPU_P6\nCCVNSGAIII_MOPSO_CPU_P5\nCCVNSGAIII_MOPSO_CPU_P4\nADAPTIVE_SELECTIVE_MOPSO_NSGA3_STAGE2C\nNSGA3_Q1\n_BaseEA\nobject\nMRO_END\n",
+  "import_stderr": ""
+}
