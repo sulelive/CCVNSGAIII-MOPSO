@@ -1,4 +1,5 @@
 # CCVNSGAIII-MOPSO
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23454896.svg)](https://doi.org/10.5281/zenodo.23454896)
 
 **Cooperative Co-evolutionary NSGA-III-MOPSO for Large-Scale
 QoS-Aware Fog Service Placement**
@@ -137,11 +138,17 @@ checksum.
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`.
+If you use CCVNSGAIII-MOPSO in research, please cite:
 
-When the associated Paper 3 article receives its final journal
-citation or DOI, the repository citation metadata should be updated
-accordingly.
+> Abdulrahman, S., Abdullahi, M., Bagiwa, M. A., & Yahya, A. (2026). *CCVNSGAIII-MOPSO: Cooperative Co-evolutionary NSGA-III-MOPSO for Large-Scale QoS-Aware Fog Service Placement* (Version v1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23454896
+
+Software archive: https://doi.org/10.5281/zenodo.23454896
+
+Source repository: https://github.com/sulelive/CCVNSGAIII-MOPSO
+
+Machine-readable citation metadata is provided in `CITATION.cff`.
+
+When the associated Paper 3 article receives its final journal citation or DOI, the repository citation metadata may be updated to include the article citation while preserving the software DOI.
 
 ## License
 
