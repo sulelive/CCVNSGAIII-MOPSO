@@ -1,18 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this software in your research, please cite it."
+message: "If you use this software in your research, please cite it using the metadata below."
+
 title: "CCVNSGAIII-MOPSO: Cooperative Co-evolutionary NSGA-III-MOPSO for Large-Scale QoS-Aware Fog Service Placement"
-type: software
+
 authors:
   - family-names: "Abdulrahman"
     given-names: "Suleiman"
-version: "1.0.0"
+    orcid: "https://orcid.org/0000-0003-2374-8022"
+
+version: "v1.0.1"
 date-released: "2026-10-18"
+
+doi: "10.5281/zenodo.23454896"
+
+repository-code: "https://github.com/sulelive/CCVNSGAIII-MOPSO"
+
+url: "https://github.com/sulelive/CCVNSGAIII-MOPSO"
+
 license: "MIT"
+
 keywords:
-  - fog computing
-  - service placement
-  - multi-objective optimization
-  - NSGA-III
-  - MOPSO
-  - cooperative co-evolution
-  - QoS
+  - "fog computing"
+  - "service placement"
+  - "multi-objective optimization"
+  - "many-objective optimization"
+  - "NSGA-III"
+  - "MOPSO"
+  - "cooperative co-evolution"
+  - "QoS"
+  - "metaheuristics"
+  - "edge computing"
